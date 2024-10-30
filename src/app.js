@@ -1,12 +1,23 @@
+const compression = require("compression");
 const express = require("express");
+const { default: helmet } = require("helmet");
 const app = express();
+const morgan = require("morgan");
+const { checkOverLoad } = require("./helpers/check.connect");
 
-const port = 3000;
+// init middleware
+app.use(morgan("dev"));
+app.use(helmet());
+app.use(compression());
+
+// init database
+require("./configs/mongodb.config");
+//checkOverLoad();
+
+// init router
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-});
+module.exports = app;
