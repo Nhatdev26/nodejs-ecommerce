@@ -1,0 +1,142 @@
+2025-01-16 01:07:29 ::info ::/shops/register ::4739d5d4-3169-43cc-aa43-aaecc6a5d9d0 ::Received request :: POST ::::{"name":"Shop 01","email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 01:13:30 ::info ::/shops/register ::0f3a9d20-fdcb-43f9-be30-8ea6fd98b235 ::Received request :: POST ::::{"name":"Shop 02","email":"shop02@gmail.com","password":"***REDACTED***"} 
+2025-01-16 01:19:36 ::info ::/shops/register ::67b383b7-02a7-43d8-8f54-554deb5066e9 ::Received request :: POST ::::{"name":"Shop 03","email":"shop03@gmail.com","password":"***REDACTED***"} 
+2025-01-16 01:21:00 ::info ::/shops/register ::64b00c92-744b-47ec-a883-01d94faea162 ::Received request :: POST ::::{"name":"Shop 04","email":"shop04@gmail.com","password":"***REDACTED***"} 
+2025-01-16 01:23:59 ::info ::/shops/register ::1d0a86cc-e2ec-4cf4-81e0-e4a8b025de6a ::Received request :: POST ::::{"name":"Shop 05","email":"shop05@gmail.com","password":"***REDACTED***"} 
+2025-01-16 01:30:38 ::info ::/v1/api/shops/register ::4ed2783d-2b41-45c9-9cd9-f33d0ed97283 ::Received request :: POST ::::{"name":"Shop 06","email":"shop06@gmail.com","password":"***REDACTED***"} 
+2025-01-16 02:49:31 ::info ::/v1/api/shops/register ::4c8556c1-8f97-422d-977d-b4011af52b7b ::Received request :: POST ::::{"name":"Shop 01","email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 02:50:09 ::info ::/v1/api/shops/login ::c9ec8bd3-4efa-4d19-a276-43c99c9f3cec ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:00:04 ::info ::/v1/api/shops/login ::376e114a-35e9-4c57-9bdc-2e4abf23d0a5 ::Received request :: POST ::::{} 
+2025-01-16 04:00:04 ::error ::/v1/api/shops/login ::376e114a-35e9-4c57-9bdc-2e4abf23d0a5 ::400 - 33ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:00:42 ::info ::/v1/api/shops/logout ::4d3c48ce-760e-47ed-81e7-ef637e69b519 ::Received request :: POST ::::{} 
+2025-01-16 04:00:42 ::error ::/v1/api/shops/logout ::4d3c48ce-760e-47ed-81e7-ef637e69b519 ::401 - 25ms - Response :: {"status":401}  ::{"message":"Invalid Request"} 
+2025-01-16 04:01:39 ::info ::/v1/api/shops/logout ::db0f6601-9193-4c36-8aba-76fcbaa76ae0 ::Received request :: POST ::::{} 
+2025-01-16 04:01:39 ::error ::/v1/api/shops/logout ::db0f6601-9193-4c36-8aba-76fcbaa76ae0 ::undefined - 30ms - Response :: {"name":"JsonWebTokenError","message":"jwt must be a string"}  ::{"message":"jwt must be a string"} 
+2025-01-16 04:03:28 ::info ::/v1/api/shops/logout ::aa672fd3-89b9-4560-a678-e331175e22d1 ::Received request :: POST ::::{} 
+2025-01-16 04:03:28 ::error ::/v1/api/shops/logout ::aa672fd3-89b9-4560-a678-e331175e22d1 ::undefined - 32ms - Response :: {"name":"JsonWebTokenError","message":"jwt must be a string"}  ::{"message":"jwt must be a string"} 
+2025-01-16 04:04:56 ::info ::/v1/api/shops/logout ::ae42b79e-30a6-4fa8-afe6-516085117341 ::Received request :: POST ::::{} 
+2025-01-16 04:04:56 ::error ::/v1/api/shops/logout ::ae42b79e-30a6-4fa8-afe6-516085117341 ::undefined - 34ms - Response :: {"name":"JsonWebTokenError","message":"secret or public key must be provided"}  ::{"message":"secret or public key must be provided"} 
+2025-01-16 04:05:45 ::info ::/v1/api/shops/logout ::422e6786-4518-4957-8866-df7a85aacd7d ::Received request :: POST ::::{} 
+2025-01-16 04:05:45 ::error ::/v1/api/shops/logout ::422e6786-4518-4957-8866-df7a85aacd7d ::undefined - 12ms - Response :: {"name":"JsonWebTokenError","message":"secret or public key must be provided"}  ::{"message":"secret or public key must be provided"} 
+2025-01-16 04:05:52 ::info ::/v1/api/shops/logout ::02fe7d3f-e39a-45c9-a967-88152ade6e53 ::Received request :: POST ::::{} 
+2025-01-16 04:05:52 ::error ::/v1/api/shops/logout ::02fe7d3f-e39a-45c9-a967-88152ade6e53 ::undefined - 31ms - Response :: {"name":"JsonWebTokenError","message":"secret or public key must be provided"}  ::{"message":"secret or public key must be provided"} 
+2025-01-16 04:07:18 ::info ::/v1/api/shops/logout ::7a20bb86-97a0-4de5-81ee-14f71fa31d88 ::Received request :: POST ::::{} 
+2025-01-16 04:07:18 ::error ::/v1/api/shops/logout ::7a20bb86-97a0-4de5-81ee-14f71fa31d88 ::undefined - 36ms - Response :: {"name":"JsonWebTokenError","message":"invalid signature"}  ::{"message":"invalid signature"} 
+2025-01-16 04:08:12 ::info ::/v1/api/shops/logout ::f2666ba1-970b-49f8-b9b8-18c8f114a5f5 ::Received request :: POST ::::{} 
+2025-01-16 04:08:12 ::error ::/v1/api/shops/logout ::f2666ba1-970b-49f8-b9b8-18c8f114a5f5 ::undefined - 37ms - Response :: {"name":"JsonWebTokenError","message":"invalid signature"}  ::{"message":"invalid signature"} 
+2025-01-16 04:08:52 ::info ::/v1/api/shops/logout ::a27cb618-ee8b-4e54-8922-e29b5f480934 ::Received request :: POST ::::{} 
+2025-01-16 04:08:52 ::error ::/v1/api/shops/logout ::a27cb618-ee8b-4e54-8922-e29b5f480934 ::undefined - 41ms - Response :: {"name":"JsonWebTokenError","message":"invalid signature"}  ::{"message":"invalid signature"} 
+2025-01-16 04:10:30 ::info ::/v1/api/shops/register ::8b1fc4ba-c926-4109-beac-a6dcbadc28ef ::Received request :: POST ::::{"name":"Shop 01","email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:10:43 ::info ::/v1/api/shops/login ::045dcde7-5592-46a5-976c-21322d3d4172 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:12:32 ::info ::/v1/api/shops/login ::6c36cc53-cde7-422d-88db-3a29f9c5e0df ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:13:13 ::info ::/v1/api/shops/login ::adb59ebf-6b93-4220-bc70-5631ddb40b7b ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:13:44 ::info ::/v1/api/shops/login ::aa94a3c6-9936-4f60-9679-5018db591c14 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:14:27 ::info ::/v1/api/shops/login ::82a33218-f8ca-417c-969d-fd8d3b07e656 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:14:30 ::info ::/v1/api/shops/login ::5231c3da-18ce-4798-be71-871af4906070 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:14:33 ::info ::/v1/api/shops/login ::d4ba0f2e-e0dd-4739-8eed-42142c1c6e05 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:15:03 ::info ::/v1/api/shops/login ::4728df1a-60b4-48e2-a0c9-6c502e57bddf ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:16:25 ::info ::/v1/api/shops/login ::ca2f5e82-aaec-4f4e-88ec-e9e3c791f0a6 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:16:46 ::info ::/v1/api/shops/login ::3cfb3cc6-7535-4e03-a596-25faa7fb5f9f ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:17:51 ::info ::/v1/api/shops/login ::6b0a41ac-baab-4652-9e40-391ac0686626 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:20:10 ::info ::/v1/api/shops/login ::d890904c-401e-4d76-8781-1d2e48acc565 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:20:47 ::info ::/v1/api/shops/login ::6caeebe4-3ac5-4368-8fc3-c1a838958507 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:24:56 ::info ::/v1/api/shops/login ::0b88fc7a-0f67-43ab-99f7-7d5c4185f6bb ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:26:07 ::info ::/v1/api/shops/login ::77284bea-5966-4dad-972d-ccb1324f8b65 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:26:09 ::info ::/v1/api/shops/login ::fae28c9d-2b7a-4073-b8df-dabf682e46d5 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:27:18 ::info ::/v1/api/shops/login ::c9f75b55-57b1-47db-81e2-dfc3c488cda5 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:27:42 ::info ::/v1/api/shops/login ::418220de-2f43-49fe-9d33-645ebd27bc3b ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:28:14 ::info ::/v1/api/shops/login ::32da9fde-6f73-46c6-a5c6-7e362c14ca90 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:28:34 ::info ::/v1/api/shops/login ::6d595f5e-b401-453b-acd7-a138ec4f9eef ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:29:04 ::info ::/v1/api/shops/login ::7bd9fcf9-5d64-40d6-af85-57b25605a516 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:29:19 ::info ::/v1/api/shops/login ::82bc0b3a-271f-4294-aa16-a1cb24c5b6f1 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:30:28 ::info ::/v1/api/shops/login ::22a2772e-b466-4d42-a9b8-e4e82042e07c ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:30:28 ::error ::/v1/api/shops/login ::22a2772e-b466-4d42-a9b8-e4e82042e07c ::undefined - 100ms - Response :: {}  ::{"message":"user is not defined"} 
+2025-01-16 04:30:57 ::info ::/v1/api/shops/login ::009345de-e46c-436c-b142-0c829edacc85 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:30:57 ::error ::/v1/api/shops/login ::009345de-e46c-436c-b142-0c829edacc85 ::undefined - 97ms - Response :: {}  ::{"message":"Assignment to constant variable."} 
+2025-01-16 04:31:44 ::info ::/v1/api/shops/login ::147d451f-ed08-4225-b72b-c626e7ee5351 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:32:57 ::info ::/v1/api/shops/login ::1f5ade31-171f-4b46-8af2-2d7f1e38a883 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:33:58 ::info ::/v1/api/shops/logout ::d69f8f1f-22a2-491a-a8c0-ad9da2b8c29c ::Received request :: POST ::::{} 
+2025-01-16 04:33:58 ::error ::/v1/api/shops/logout ::d69f8f1f-22a2-491a-a8c0-ad9da2b8c29c ::400 - 19ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:35:53 ::info ::/v1/api/shops/logout ::7176919e-b9f7-4998-8ba7-38c42248d9bf ::Received request :: POST ::::{} 
+2025-01-16 04:35:53 ::error ::/v1/api/shops/logout ::7176919e-b9f7-4998-8ba7-38c42248d9bf ::400 - 41ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:37:36 ::info ::/v1/api/shops/logout ::632f4270-54d2-4b0a-8d35-607dde54e121 ::Received request :: POST ::::{} 
+2025-01-16 04:37:36 ::error ::/v1/api/shops/logout ::632f4270-54d2-4b0a-8d35-607dde54e121 ::400 - 49ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:38:34 ::info ::/v1/api/shops/login ::75a9adf5-e1a5-4d05-a997-7a85907e90d4 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:38:55 ::info ::/v1/api/shops/logout ::ce3ae78f-e650-41ed-8d27-53a603cc81c5 ::Received request :: POST ::::{} 
+2025-01-16 04:38:55 ::error ::/v1/api/shops/logout ::ce3ae78f-e650-41ed-8d27-53a603cc81c5 ::400 - 16ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:39:05 ::info ::/v1/api/shops/logout ::5faa43c0-6736-4e5b-977a-328e66114c86 ::Received request :: POST ::::{} 
+2025-01-16 04:39:05 ::error ::/v1/api/shops/logout ::5faa43c0-6736-4e5b-977a-328e66114c86 ::400 - 44ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:41:33 ::info ::/v1/api/shops/logout ::9c468304-e86b-4584-a870-9dc42b0e436c ::Received request :: POST ::::{} 
+2025-01-16 04:41:33 ::error ::/v1/api/shops/logout ::9c468304-e86b-4584-a870-9dc42b0e436c ::400 - 38ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:42:43 ::info ::/v1/api/shops/logout ::a21556f8-a124-40c6-be8b-ab684f55a655 ::Received request :: POST ::::{} 
+2025-01-16 04:42:43 ::error ::/v1/api/shops/logout ::a21556f8-a124-40c6-be8b-ab684f55a655 ::400 - 40ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:45:48 ::info ::/v1/api/shops/logout ::0d2b1c57-f9ae-4e75-814e-0d8df0a87953 ::Received request :: POST ::::{} 
+2025-01-16 04:45:48 ::error ::/v1/api/shops/logout ::0d2b1c57-f9ae-4e75-814e-0d8df0a87953 ::400 - 44ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:45:50 ::info ::/v1/api/shops/logout ::afaa8b75-e37a-4637-b50b-a6c7aea1b03f ::Received request :: POST ::::{} 
+2025-01-16 04:45:50 ::error ::/v1/api/shops/logout ::afaa8b75-e37a-4637-b50b-a6c7aea1b03f ::400 - 19ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:46:54 ::info ::/v1/api/shops/logout ::2362f361-4288-4f40-9fab-8c307bc68945 ::Received request :: POST ::::{} 
+2025-01-16 04:46:54 ::error ::/v1/api/shops/logout ::2362f361-4288-4f40-9fab-8c307bc68945 ::400 - 41ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:47:59 ::info ::/v1/api/shops/login ::6a87c062-aeaa-4782-8273-2de40c66bd8d ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:48:28 ::info ::/v1/api/shops/login ::24e75539-4455-4306-bb46-475af59b7185 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 04:49:05 ::info ::/v1/api/shops/logout ::01688eed-6da7-4235-8882-2a6d226c6786 ::Received request :: POST ::::{} 
+2025-01-16 04:49:05 ::error ::/v1/api/shops/logout ::01688eed-6da7-4235-8882-2a6d226c6786 ::400 - 19ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:49:11 ::info ::/v1/api/shops/logout ::67363c3c-3e12-4d66-9e8a-bdb1d95f6366 ::Received request :: POST ::::{} 
+2025-01-16 04:49:11 ::error ::/v1/api/shops/logout ::67363c3c-3e12-4d66-9e8a-bdb1d95f6366 ::400 - 14ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 04:57:41 ::info ::/v1/api/shops/logout ::2de6ac26-1b38-44b7-88b9-740508c74749 ::Received request :: POST ::::{} 
+2025-01-16 04:57:41 ::error ::/v1/api/shops/logout ::2de6ac26-1b38-44b7-88b9-740508c74749 ::undefined - 35ms - Response :: {}  ::{"message":"decodedToken is not defined"} 
+2025-01-16 04:58:12 ::info ::/v1/api/shops/logout ::68fe5f8d-405c-4799-be2d-b5885caabf2b ::Received request :: POST ::::{} 
+2025-01-16 04:58:12 ::error ::/v1/api/shops/logout ::68fe5f8d-405c-4799-be2d-b5885caabf2b ::400 - 43ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 05:02:36 ::info ::/v1/api/shops/logout ::ac74e37e-34f1-448a-a502-2c3cb4766eb0 ::Received request :: POST ::::{} 
+2025-01-16 05:02:36 ::error ::/v1/api/shops/logout ::ac74e37e-34f1-448a-a502-2c3cb4766eb0 ::400 - 39ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 05:03:12 ::info ::/v1/api/shops/logout ::6903230b-edeb-4970-b60e-c9ffaeaa5df5 ::Received request :: POST ::::{} 
+2025-01-16 05:03:12 ::error ::/v1/api/shops/logout ::6903230b-edeb-4970-b60e-c9ffaeaa5df5 ::400 - 43ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 05:04:00 ::info ::/v1/api/shops/logout ::8103e073-dd85-4f10-950e-f4bc71302c36 ::Received request :: POST ::::{} 
+2025-01-16 05:04:19 ::info ::/v1/api/shops/logout ::a94add1f-d142-4cae-80ec-778df5546115 ::Received request :: POST ::::{} 
+2025-01-16 05:04:31 ::info ::/v1/api/shops/logout ::fd427e9f-0500-4a4c-932f-099a0fd49cb5 ::Received request :: POST ::::{} 
+2025-01-16 05:04:31 ::error ::/v1/api/shops/logout ::fd427e9f-0500-4a4c-932f-099a0fd49cb5 ::400 - 49ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 10:51:54 ::info ::/v1/api/shops/logout ::83363ab6-256e-479b-985b-91f32dc689f5 ::Received request :: POST ::::{} 
+2025-01-16 10:51:54 ::error ::/v1/api/shops/logout ::83363ab6-256e-479b-985b-91f32dc689f5 ::400 - 47ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 10:52:19 ::info ::/v1/api/shops/login ::9f8b44e0-5224-45a5-833c-9ad8594c1a5c ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 10:53:24 ::info ::/v1/api/shops/login ::57b6516a-2347-4adf-9e11-7091bf01b813 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 10:54:00 ::info ::/v1/api/shops/logout ::2009afa2-2dce-43cc-9c06-378a245722ca ::Received request :: POST ::::{} 
+2025-01-16 10:54:00 ::error ::/v1/api/shops/logout ::2009afa2-2dce-43cc-9c06-378a245722ca ::400 - 19ms - Response :: {"status":400}  ::{"message":"Shop not registered !!!"} 
+2025-01-16 10:55:07 ::info ::/v1/api/shops/logout ::c1d75c83-5feb-47fe-8d30-de0e8255d1c5 ::Received request :: POST ::::{} 
+2025-01-16 10:55:29 ::info ::/v1/api/shops/login ::dcea2275-b755-4162-8c61-dff1cacc464f ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 10:55:52 ::info ::/v1/api/shops/logout ::030712f5-6129-4230-9a32-a96375a1271f ::Received request :: POST ::::{} 
+2025-01-16 10:55:52 ::error ::/v1/api/shops/logout ::030712f5-6129-4230-9a32-a96375a1271f ::undefined - 11ms - Response :: {"name":"JsonWebTokenError","message":"invalid signature"}  ::{"message":"invalid signature"} 
+2025-01-16 10:56:07 ::info ::/v1/api/shops/logout ::62ff8068-a485-46a1-9004-36f74dde29ad ::Received request :: POST ::::{} 
+2025-01-16 16:29:22 ::info ::/v1/api/shops/login ::38442b0f-a3e0-4022-876e-130247cd6d16 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 16:31:21 ::info ::/v1/api/shops/refresh-token ::7d23865e-2d8f-4c49-9ec2-f6df6506ac2e ::Received request :: POST ::::{} 
+2025-01-16 16:31:21 ::error ::/v1/api/shops/refresh-token ::7d23865e-2d8f-4c49-9ec2-f6df6506ac2e ::403 - 20ms - Response :: {"status":403}  ::{"message":"RefreshToken Is not allowed for this endpoint "} 
+2025-01-16 16:33:32 ::info ::/v1/api/shops/refresh-token ::370006e8-59aa-4b56-9815-d947f2fc3323 ::Received request :: POST ::::{} 
+2025-01-16 16:33:32 ::error ::/v1/api/shops/refresh-token ::370006e8-59aa-4b56-9815-d947f2fc3323 ::undefined - 36ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'includes')"} 
+2025-01-16 16:35:21 ::info ::/v1/api/shops/refresh-token ::79bada21-ffeb-4073-a755-6760c58caf31 ::Received request :: POST ::::{} 
+2025-01-16 16:35:21 ::error ::/v1/api/shops/refresh-token ::79bada21-ffeb-4073-a755-6760c58caf31 ::undefined - 40ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'includes')"} 
+2025-01-16 16:36:20 ::info ::/v1/api/shops/refresh-token ::037bf251-4a2d-4bce-af20-894a5ac1a853 ::Received request :: POST ::::{} 
+2025-01-16 16:36:20 ::error ::/v1/api/shops/refresh-token ::037bf251-4a2d-4bce-af20-894a5ac1a853 ::undefined - 45ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'refreshToken')"} 
+2025-01-16 16:37:19 ::info ::/v1/api/shops/refresh-token ::d47dc642-dc11-4e4c-a796-da94df1a1077 ::Received request :: POST ::::{} 
+2025-01-16 16:37:19 ::error ::/v1/api/shops/refresh-token ::d47dc642-dc11-4e4c-a796-da94df1a1077 ::undefined - 47ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'refreshToken')"} 
+2025-01-16 16:38:09 ::info ::/v1/api/shops/refresh-token ::956084b3-ca45-41b7-9076-a6ea45af67a9 ::Received request :: POST ::::{} 
+2025-01-16 16:38:09 ::error ::/v1/api/shops/refresh-token ::956084b3-ca45-41b7-9076-a6ea45af67a9 ::undefined - 55ms - Response :: {}  ::{"message":"keyStore.update is not a function"} 
+2025-01-16 16:38:43 ::info ::/v1/api/shops/refresh-token ::63a6bc53-a73b-4731-ac78-9c5a4f5fc04d ::Received request :: POST ::::{} 
+2025-01-16 16:38:43 ::error ::/v1/api/shops/refresh-token ::63a6bc53-a73b-4731-ac78-9c5a4f5fc04d ::401 - 57ms - Response :: {"status":401}  ::{"message":"Shop not registered !!"} 
+2025-01-16 16:39:23 ::info ::/v1/api/shops/refresh-token ::066b6e77-b643-469c-bb38-ead46f7cc3eb ::Received request :: POST ::::{} 
+2025-01-16 16:39:23 ::error ::/v1/api/shops/refresh-token ::066b6e77-b643-469c-bb38-ead46f7cc3eb ::undefined - 50ms - Response :: {}  ::{"message":"keyStore.update is not a function"} 
+2025-01-16 16:43:07 ::info ::/v1/api/shops/refresh-token ::e3d2c9c0-d93a-4c51-a36e-69e839f3fe63 ::Received request :: POST ::::{} 
+2025-01-16 16:43:07 ::error ::/v1/api/shops/refresh-token ::e3d2c9c0-d93a-4c51-a36e-69e839f3fe63 ::undefined - 43ms - Response :: {}  ::{"message":"keyStore.findOneAndUpdate is not a function"} 
+2025-01-16 16:44:07 ::info ::/v1/api/shops/refresh-token ::f6068850-ac1f-4e62-86ce-73c709001ff1 ::Received request :: POST ::::{} 
+2025-01-16 16:44:07 ::error ::/v1/api/shops/refresh-token ::f6068850-ac1f-4e62-86ce-73c709001ff1 ::undefined - 73ms - Response :: {}  ::{"message":"keyStore.findOneAndUpdate is not a function"} 
+2025-01-16 16:46:59 ::info ::/v1/api/shops/refresh-token ::f969c99f-a9e8-4122-94a8-a7c249568885 ::Received request :: POST ::::{} 
+2025-01-16 16:46:59 ::error ::/v1/api/shops/refresh-token ::f969c99f-a9e8-4122-94a8-a7c249568885 ::undefined - 46ms - Response :: {}  ::{"message":"keyStore.update is not a function"} 
+2025-01-16 18:04:27 ::info ::/v1/api/shops/refresh-token ::223f5873-2fc8-4ff9-9e35-697b0ade420d ::Received request :: POST ::::{} 
+2025-01-16 18:04:27 ::error ::/v1/api/shops/refresh-token ::223f5873-2fc8-4ff9-9e35-697b0ade420d ::undefined - 50ms - Response :: {}  ::{"message":"keyStore.update is not a function"} 
+2025-01-16 18:06:05 ::info ::/v1/api/shops/refresh-token ::7270dab1-4e89-4a9b-967e-4550c189e758 ::Received request :: POST ::::{} 
+2025-01-16 18:06:11 ::info ::/v1/api/shops/refresh-token ::6f3ccdea-f402-407f-8955-7ce894597ff6 ::Received request :: POST ::::{} 
+2025-01-16 18:06:11 ::error ::/v1/api/shops/refresh-token ::6f3ccdea-f402-407f-8955-7ce894597ff6 ::undefined - 15ms - Response :: {"stringValue":"\"{ user: '678824461980e75cb6f8a37b' }\"","valueType":"Object","kind":"ObjectId","value":{"user":"678824461980e75cb6f8a37b"},"path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"{ user: '678824461980e75cb6f8a37b' }\" (type Object) at path \"_id\" for model \"KeyToken\""}  ::{"message":"Cast to ObjectId failed for value \"{ user: '678824461980e75cb6f8a37b' }\" (type Object) at path \"_id\" for model \"KeyToken\""} 
+2025-01-16 18:07:00 ::info ::/v1/api/shops/refresh-token ::824564f6-55de-4d94-b8e4-3dceeb171110 ::Received request :: POST ::::{} 
+2025-01-16 18:07:00 ::error ::/v1/api/shops/refresh-token ::824564f6-55de-4d94-b8e4-3dceeb171110 ::undefined - 37ms - Response :: {"stringValue":"\"{ user: '678824461980e75cb6f8a37b' }\"","valueType":"Object","kind":"ObjectId","value":{"user":"678824461980e75cb6f8a37b"},"path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"{ user: '678824461980e75cb6f8a37b' }\" (type Object) at path \"_id\" for model \"KeyToken\""}  ::{"message":"Cast to ObjectId failed for value \"{ user: '678824461980e75cb6f8a37b' }\" (type Object) at path \"_id\" for model \"KeyToken\""} 
+2025-01-16 18:08:23 ::info ::/v1/api/shops/refresh-token ::5a917f00-0ea6-47bd-9c7c-179143e42f57 ::Received request :: POST ::::{} 
+2025-01-16 18:08:23 ::error ::/v1/api/shops/refresh-token ::5a917f00-0ea6-47bd-9c7c-179143e42f57 ::undefined - 36ms - Response :: {"stringValue":"\"{ user: '678824461980e75cb6f8a37b' }\"","valueType":"Object","kind":"ObjectId","value":{"user":"678824461980e75cb6f8a37b"},"path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"{ user: '678824461980e75cb6f8a37b' }\" (type Object) at path \"_id\" for model \"KeyToken\""}  ::{"message":"Cast to ObjectId failed for value \"{ user: '678824461980e75cb6f8a37b' }\" (type Object) at path \"_id\" for model \"KeyToken\""} 
+2025-01-16 18:08:50 ::info ::/v1/api/shops/login ::9f012572-67d6-42cf-9891-71c3a4b4ff89 ::Received request :: POST ::::{"email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-16 18:09:03 ::info ::/v1/api/shops/refresh-token ::eb93a2e5-b3f5-41b3-95d8-aee8d0bf1fdc ::Received request :: POST ::::{} 
+2025-01-16 18:09:03 ::error ::/v1/api/shops/refresh-token ::eb93a2e5-b3f5-41b3-95d8-aee8d0bf1fdc ::undefined - 19ms - Response :: {}  ::{"message":"mongoose is not defined"} 

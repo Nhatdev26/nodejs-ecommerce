@@ -1,0 +1,7 @@
+2025-01-12 15:01:24 ::error ::/v1/api/shops/register ::e3f4a250-482c-4f12-adec-a3c094f62a8e ::404 - 0ms - Response :: {"status":404}  ::{"message":"Not found"} 
+2025-01-12 15:02:10 ::error ::/shops/register ::2743b862-f8a9-4979-9b09-237af75c2042 ::undefined - 1ms - Response :: {}  ::{"message":"Cannot destructure property 'name' of 'undefined' as it is undefined."} 
+2025-01-12 15:03:54 ::error ::/shops/register ::bc6c0ca9-4a66-484a-9359-42e523a0d08a ::undefined - 0ms - Response :: {}  ::{"message":"Cannot destructure property 'name' of 'undefined' as it is undefined."} 
+2025-01-12 15:05:30 ::error ::/hel ::20d3b8ba-2de2-44b8-b0a5-19b1200b68d5 ::404 - 0ms - Response :: {"status":404}  ::{"message":"Not found"} 
+2025-01-12 15:05:47 ::error ::/hel ::ed4d257f-ce3f-42b5-90d9-043c5d16fcd0 ::404 - 0ms - Response :: {"status":404}  ::{"message":"Not found"} 
+2025-01-12 15:06:21 ::error ::/shops/register ::e17b33ef-90e8-43ff-b5a7-d2dd626c07db ::undefined - 1ms - Response :: {}  ::{"message":"Cannot destructure property 'name' of 'undefined' as it is undefined."} 
+2025-01-12 15:11:32 ::error ::/shops/register ::b72aebe7-bc28-4ab0-b8eb-037d89ee8f67 ::undefined - 18ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'hashSync')"} 

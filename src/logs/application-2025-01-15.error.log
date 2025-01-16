@@ -1,0 +1,1 @@
+2025-01-15 23:17:03 ::error ::/shops/register ::5e9cdd05-ece4-4aa4-b80a-717b5fa291b7 ::undefined - 35ms - Response :: {}  ::{"message":"Cannot read properties of null (reading 'permissions')"} 

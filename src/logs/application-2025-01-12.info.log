@@ -1,0 +1,24 @@
+2025-01-12 15:01:24 ::info ::/v1/api/shops/register ::e3f4a250-482c-4f12-adec-a3c094f62a8e ::Received request :: POST ::::{} 
+2025-01-12 15:01:24 ::error ::/v1/api/shops/register ::e3f4a250-482c-4f12-adec-a3c094f62a8e ::404 - 0ms - Response :: {"status":404}  ::{"message":"Not found"} 
+2025-01-12 15:02:10 ::info ::/shops/register ::2743b862-f8a9-4979-9b09-237af75c2042 ::Received request :: POST ::::{} 
+2025-01-12 15:02:10 ::error ::/shops/register ::2743b862-f8a9-4979-9b09-237af75c2042 ::undefined - 1ms - Response :: {}  ::{"message":"Cannot destructure property 'name' of 'undefined' as it is undefined."} 
+2025-01-12 15:03:54 ::info ::/shops/register ::bc6c0ca9-4a66-484a-9359-42e523a0d08a ::Received request :: POST ::::{} 
+2025-01-12 15:03:54 ::error ::/shops/register ::bc6c0ca9-4a66-484a-9359-42e523a0d08a ::undefined - 0ms - Response :: {}  ::{"message":"Cannot destructure property 'name' of 'undefined' as it is undefined."} 
+2025-01-12 15:05:30 ::info ::/hel ::20d3b8ba-2de2-44b8-b0a5-19b1200b68d5 ::Received request :: GET ::::{} 
+2025-01-12 15:05:30 ::error ::/hel ::20d3b8ba-2de2-44b8-b0a5-19b1200b68d5 ::404 - 0ms - Response :: {"status":404}  ::{"message":"Not found"} 
+2025-01-12 15:05:47 ::info ::/hel ::ed4d257f-ce3f-42b5-90d9-043c5d16fcd0 ::Received request :: GET ::::{} 
+2025-01-12 15:05:47 ::error ::/hel ::ed4d257f-ce3f-42b5-90d9-043c5d16fcd0 ::404 - 0ms - Response :: {"status":404}  ::{"message":"Not found"} 
+2025-01-12 15:05:55 ::info ::/hel ::5a238af5-f317-4ac1-aeb0-3abdaf6022e0 ::Received request :: GET ::::{} 
+2025-01-12 15:06:21 ::info ::/shops/register ::e17b33ef-90e8-43ff-b5a7-d2dd626c07db ::Received request :: POST ::::{} 
+2025-01-12 15:06:21 ::error ::/shops/register ::e17b33ef-90e8-43ff-b5a7-d2dd626c07db ::undefined - 1ms - Response :: {}  ::{"message":"Cannot destructure property 'name' of 'undefined' as it is undefined."} 
+2025-01-12 15:11:32 ::info ::/shops/register ::b72aebe7-bc28-4ab0-b8eb-037d89ee8f67 ::Received request :: POST ::::{"name":"Shop 01","email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:11:32 ::error ::/shops/register ::b72aebe7-bc28-4ab0-b8eb-037d89ee8f67 ::undefined - 18ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'hashSync')"} 
+2025-01-12 15:13:46 ::info ::/shops/register ::2c768212-dd57-4175-b0be-395e2fdbc17b ::Received request :: POST ::::{"name":"Shop 01","email":"shop01@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:15:34 ::info ::/shops/register ::012f22d7-bf05-4d78-8c22-055bb85cf283 ::Received request :: POST ::::{"name":"Shop 02","email":"shop02@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:17:01 ::info ::/shops/register ::363a97ea-e5b5-47e4-940b-431762bd8c81 ::Received request :: POST ::::{"name":"Shop 02","email":"shop03@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:18:18 ::info ::/shops/register ::aaaa5bd8-432b-4c3c-ae0c-9bc1e1eb1ae7 ::Received request :: POST ::::{"name":"Shop 02","email":"shop04@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:18:40 ::info ::/shops/register ::870bb3fd-00f0-4888-9074-54e84833170d ::Received request :: POST ::::{"name":"Shop 02","email":"shop05@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:20:26 ::info ::/shops/register ::4deeb57e-e7e0-4793-a832-bd477bdcaf2b ::Received request :: POST ::::{"name":"Shop 02","email":"shop06@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:22:05 ::info ::/shops/register ::4a734a2c-7bc2-4d56-b1fc-cbc9257ba244 ::Received request :: POST ::::{"name":"Shop 02","email":"shop07@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:24:51 ::info ::/shops/register ::060bff04-02bf-4760-b6c6-07d9041d859e ::Received request :: POST ::::{"name":"Shop 02","email":"shop08@gmail.com","password":"***REDACTED***"} 
+2025-01-12 15:44:25 ::info ::/shops/register ::455bdacc-91d1-4386-b6c1-0286f5cc1662 ::Received request :: POST ::::{"name":"Shop 02","email":"shop09@gmail.com","password":"***REDACTED***"} 
