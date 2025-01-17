@@ -1,0 +1,14 @@
+2024-11-04 09:52:34 ::error ::/ ::06f1f018-e410-4f87-8203-35c96d47c24c ::400 - 0ms - Response : {"status":400}::{"message":"Lỗi kết nối "} 
+2024-11-04 09:55:57 ::error ::/ ::de0833ed-5567-47f7-955f-a5218f283ae9 ::400 - 0ms - Response : {"status":400}::{"message":"Lỗi kết nối "} 
+2024-11-04 09:56:46 ::error ::/ ::aa241242-2e91-4911-a78b-5fe095c6b864 ::400 - 1ms - Response : {"status":400}::{"message":"Lỗi kết nối "} 
+2024-11-04 10:03:23 ::error ::/ ::ced6cc0a-58c1-4a22-aeca-3e12706f726d ::400 - 1ms - Response : {"status":400}  ::{"message":"Lỗi kết nối "} 
+2024-11-04 10:08:10 ::error ::/ ::9452b88f-7cd8-4ad6-924a-598fe0af18e5 ::400 - 1ms - Response : {"status":400}  ::{"message":"Lỗi kết nối "} 
+2024-11-04 10:08:51 ::error ::/ ::36a2611c-496e-426e-8701-11d8c03a4449 ::400 - 2ms - Response : {"status":400}  ::{"message":"Lỗi kết nối "} 
+2024-11-04 10:09:14 ::error ::/ ::5040b89c-bd55-4f25-8b6b-437b72ad7cc8 ::400 - 1ms - Response :: {"status":400}  ::{"message":"Lỗi kết nối "} 
+2024-11-04 10:13:01 ::error ::/ ::ea13b897-445c-4f2f-b23e-934a2e17b7ba ::400 - 1ms - Response :: {"status":400}  ::{"message":{"status":400}} 
+2024-11-04 10:13:31 ::error ::/ ::06d86ab5-2b0a-41da-a874-9297077b7e03 ::400 - 2ms - Response :: {"status":400}  ::{"message":"Lỗi kết nối "} 
+2024-11-04 10:51:10 ::error ::/ ::dd91b8a6-04c2-42bf-b9ae-4b17e055d146 ::undefined - 1ms - Response :: {}  ::{"message":"Class constructor ForbiddenError cannot be invoked without 'new'"} 
+2024-11-04 10:52:05 ::error ::/ ::603dff02-12ac-4f1d-9270-9149c4109b56 ::403 - 0ms - Response :: {"status":403}  ::{"message":"[object Object]"} 
+2024-11-04 10:52:22 ::error ::/ ::b42994c7-1c9d-47ab-a7f3-36d928b3b24e ::403 - 0ms - Response :: {"status":403}  ::{"message":"[object Object]"} 
+2024-11-04 10:55:00 ::error ::/ ::87eb7388-76bc-4bca-9082-6dc8fdb5301c ::403 - 1ms - Response :: {"status":403}  ::{"message":"Forbidden ApiKey Error"} 
+2024-11-04 10:57:24 ::error ::/ ::8dfb29fa-5fd8-4b79-9876-8972972596bb ::403 - 39ms - Response :: {"status":403}  ::{"message":"Forbidden ApiKey Error"} 

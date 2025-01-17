@@ -1,0 +1,6 @@
+2025-01-15 23:09:45 ::info ::/shops/register ::d96cd795-c6d9-4871-8369-c8b9eca5a730 ::Received request :: POST ::::{"name":"Shop 02","email":"shop11@gmail.com","password":"***REDACTED***"} 
+2025-01-15 23:13:05 ::info ::/shops/register ::b8e6ff95-0b8f-420d-8fe5-e8f445750ba0 ::Received request :: POST ::::{"name":"Shop 02","email":"shop11@gmail.com","password":"***REDACTED***"} 
+2025-01-15 23:16:25 ::info ::/shops/register ::51fd047e-842c-4c69-9cc4-2e60c7e9c921 ::Received request :: POST ::::{"name":"Shop 02","email":"shop11@gmail.com","password":"***REDACTED***"} 
+2025-01-15 23:17:03 ::info ::/shops/register ::5e9cdd05-ece4-4aa4-b80a-717b5fa291b7 ::Received request :: POST ::::{"name":"Shop 02","email":"shop11@gmail.com","password":"***REDACTED***"} 
+2025-01-15 23:17:03 ::error ::/shops/register ::5e9cdd05-ece4-4aa4-b80a-717b5fa291b7 ::undefined - 35ms - Response :: {}  ::{"message":"Cannot read properties of null (reading 'permissions')"} 
+2025-01-15 23:17:58 ::info ::/shops/register ::dfedc423-1fcb-4625-a431-d2e1f10de36e ::Received request :: POST ::::{"name":"Shop 02","email":"shop11@gmail.com","password":"***REDACTED***"} 
