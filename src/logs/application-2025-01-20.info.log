@@ -1,0 +1,69 @@
+2025-01-20 01:43:36 ::info ::/v1/api/profile/viewown ::41a5c98b-0645-46d7-ad07-e1a491255a18 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 01:44:15 ::info ::/v1/api/profile/viewown ::5d6c409e-ae5a-4722-aaa5-8ea14b7d96ce ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 01:55:29 ::info ::/v1/api/profile/viewown ::04f556c7-d19c-4724-88e8-6139ec2d16d2 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 01:58:07 ::info ::/v1/api/profile/viewown ::677769c4-833d-4378-a5ac-f847766055b2 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 01:58:41 ::info ::/v1/api/profile/viewown ::a7a035a0-c87d-4813-b0f9-44254bd8a78e ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 01:59:48 ::info ::/v1/api/profile/viewAny ::98d24ed6-bc6d-4612-b713-855cdb4fdf23 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:00:04 ::info ::/v1/api/profile/viewAny ::326d9641-56df-485b-9ab8-c5d7c958d304 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-20 02:00:04 ::error ::/v1/api/profile/viewAny ::326d9641-56df-485b-9ab8-c5d7c958d304 ::401 - 7ms - Response :: {"status":401}  ::{"message":"you dont have enough permissions"} 
+2025-01-20 02:10:14 ::info ::/v1/api/profile/viewAny ::8868e730-487d-438e-b780-5648c76f89bc ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:10:14 ::error ::/v1/api/profile/viewAny ::8868e730-487d-438e-b780-5648c76f89bc ::undefined - 13ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-20 02:11:47 ::info ::/v1/api/profile/viewAny ::64af1bde-2a28-44a9-a770-0f2b50052df5 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:11:47 ::error ::/v1/api/profile/viewAny ::64af1bde-2a28-44a9-a770-0f2b50052df5 ::undefined - 12ms - Response :: {}  ::{"message":"rbac.can(...).execute is not a function"} 
+2025-01-20 02:13:20 ::info ::/v1/api/profile/viewAny ::13a5bb34-506c-45be-8120-70b3b9141532 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:13:20 ::error ::/v1/api/profile/viewAny ::13a5bb34-506c-45be-8120-70b3b9141532 ::undefined - 13ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-20 02:14:56 ::info ::/v1/api/profile/viewAny ::2115b867-5ab7-46f8-bca9-39f24f81947c ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:18:59 ::info ::/v1/api/profile/viewOwn ::c6bd644b-73a0-4eda-bb22-11dfeb952f67 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:18:59 ::error ::/v1/api/profile/viewOwn ::c6bd644b-73a0-4eda-bb22-11dfeb952f67 ::undefined - 16ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-20 02:20:12 ::info ::/v1/api/profile/viewOwn ::4aae91ee-4092-4d33-a3c8-b0acf2720d14 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:20:12 ::error ::/v1/api/profile/viewOwn ::4aae91ee-4092-4d33-a3c8-b0acf2720d14 ::undefined - 12ms - Response :: {}  ::{"message":"rbac.can(...).execute is not a function"} 
+2025-01-20 02:22:50 ::info ::/v1/api/profile/viewOwn ::3b95faa8-c68d-463e-bd7f-f6329c0b7515 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:22:50 ::error ::/v1/api/profile/viewOwn ::3b95faa8-c68d-463e-bd7f-f6329c0b7515 ::undefined - 13ms - Response :: {}  ::{"message":"rbac.can(...).execute is not a function"} 
+2025-01-20 02:23:08 ::info ::/v1/api/profile/viewOwn ::e1f1e1e9-a2d4-4234-abf7-64ea01893254 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:23:49 ::info ::/v1/api/profile/viewOwn ::3947b463-caca-4216-b07b-a8eb547ff842 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 02:24:21 ::info ::/v1/api/profile/viewOwn ::c59fa6cb-4ed0-486d-8093-7e7d9e4ff75c ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 09:12:09 ::info ::/v1/api/rbac/resource ::c814369b-ac28-4ada-85ab-8eeca25ef827 ::Received request :: POST ::::{"name":"profile","slug":"p00001","decription":"profile global"} 
+2025-01-20 09:12:09 ::error ::/v1/api/rbac/resource ::c814369b-ac28-4ada-85ab-8eeca25ef827 ::409 - 34ms - Response :: {"status":409}  ::{"message":"Resource already existed"} 
+2025-01-20 09:14:35 ::info ::/v1/api/rbac/resource ::c8ef39c6-7f79-4e2a-98c2-63ae05e0d9f6 ::Received request :: POST ::::{"name":"profile","slug":"p00001","decription":"profile global"} 
+2025-01-20 09:16:12 ::info ::/v1/api/rbac/resource ::45a2a283-36a0-4410-ae9c-efbe9637d03c ::Received request :: POST ::::{"name":"profile","slug":"p00001","desription":"profile global"} 
+2025-01-20 09:16:47 ::info ::/v1/api/rbac/resource ::1fdf6399-fbad-4d3f-86cb-da92b4bf50f4 ::Received request :: POST ::::{"name":"profile","slug":"p00001","description":"profile global"} 
+2025-01-20 09:24:52 ::info ::/v1/api/rbac/resource ::50ed6e0f-4c2d-487b-9b0c-7cf0285feb94 ::Received request :: GET ::::{} 
+2025-01-20 09:24:52 ::error ::/v1/api/rbac/resource ::50ed6e0f-4c2d-487b-9b0c-7cf0285feb94 ::undefined - 12ms - Response :: {}  ::{"message":"Aggregate has empty pipeline"} 
+2025-01-20 09:25:14 ::info ::/v1/api/rbac/resource ::9ebde176-1a0e-4480-b51c-499baec3f1d5 ::Received request :: GET ::::{} 
+2025-01-20 09:25:14 ::error ::/v1/api/rbac/resource ::9ebde176-1a0e-4480-b51c-499baec3f1d5 ::undefined - 12ms - Response :: {}  ::{"message":"Aggregate has empty pipeline"} 
+2025-01-20 09:27:47 ::info ::/v1/api/rbac/resource ::f8c2b6bb-805c-4e74-b9a1-03938f0c00a4 ::Received request :: GET ::::{} 
+2025-01-20 09:27:47 ::error ::/v1/api/rbac/resource ::f8c2b6bb-805c-4e74-b9a1-03938f0c00a4 ::undefined - 11ms - Response :: {}  ::{"message":"Aggregate has empty pipeline"} 
+2025-01-20 09:28:50 ::info ::/v1/api/rbac/resource ::c607cb6b-796a-47c3-a8e2-da0cfe1823ff ::Received request :: GET ::::{} 
+2025-01-20 09:58:32 ::info ::/v1/api/rbac/role ::9faa0c56-7764-41dc-8803-f2ee0d71cf50 ::Received request :: POST ::::{"name":"admin","slug":"s0001","description":"admin extend from shop or user","grant":[{"resource":"678db20fa68defc15b8b661f","action":["update:any","read:any","delete:any"],"attributes":"*"}]} 
+2025-01-20 09:58:32 ::error ::/v1/api/rbac/role ::9faa0c56-7764-41dc-8803-f2ee0d71cf50 ::undefined - 11ms - Response :: {}  ::{"message":"body is not defined"} 
+2025-01-20 09:59:13 ::info ::/v1/api/rbac/role ::5f5086c6-bc9d-4cdc-960e-3ada444b96bf ::Received request :: POST ::::{"name":"admin","slug":"s0001","description":"admin extend from shop or user","grant":[{"resource":"678db20fa68defc15b8b661f","action":["update:any","read:any","delete:any"],"attributes":"*"}]} 
+2025-01-20 10:02:16 ::info ::/v1/api/rbac/role ::8da7cdf3-0750-48bf-ad8b-dfec2487cc15 ::Received request :: POST ::::{"name":"admin","slug":"s0001","description":"admin extend from shop or user","grant":[{"resource":"678db20fa68defc15b8b661f","action":["update:any","read:any","delete:any"],"attributes":"*"}]} 
+2025-01-20 10:03:01 ::info ::/v1/api/rbac/role ::c79d23e8-0c5c-404a-bef7-1430b155fc24 ::Received request :: POST ::::{"name":"admin","slug":"s0001","description":"admin extend from shop or user","grants":[{"resource":"678db20fa68defc15b8b661f","action":["update:any","read:any","delete:any"],"attributes":"*"}]} 
+2025-01-20 10:03:01 ::error ::/v1/api/rbac/role ::c79d23e8-0c5c-404a-bef7-1430b155fc24 ::409 - 21ms - Response :: {"status":409}  ::{"message":"Resource already existed"} 
+2025-01-20 10:03:25 ::info ::/v1/api/rbac/role ::e5c27fce-6738-4c2c-af23-0c7f6272ec03 ::Received request :: POST ::::{"name":"admin","slug":"s0001","description":"admin extend from shop or user","grants":[{"resource":"678db20fa68defc15b8b661f","action":["update:any","read:any","delete:any"],"attributes":"*"}]} 
+2025-01-20 10:08:05 ::info ::/v1/api/rbac/resource ::88945301-676f-4c18-a04f-4197886ce12b ::Received request :: POST ::::{"name":"balance","slug":"b00001","description":"balence global"} 
+2025-01-20 10:08:12 ::info ::/v1/api/rbac/resources ::fd7f5e48-7fee-4116-ab24-ad6c27947db9 ::Received request :: GET ::::{} 
+2025-01-20 10:09:54 ::info ::/v1/api/rbac/role ::67efa5fc-1c97-4d9f-bf7c-40db9faa96e4 ::Received request :: POST ::::{"name":"admin","slug":"s0001","description":"admin extend from shop or user","grants":[{"resource":"678db20fa68defc15b8b661f","action":["update:any","read:any","delete:any"],"attributes":"*"},{"resource":"678dbe156c5a488fad2bd383","action":["update:any","read:any","delete:any"],"attributes":"*, !mount"}]} 
+2025-01-20 10:12:23 ::info ::/v1/api/rbac/role ::5a9757fe-318e-41da-81cb-191755f72d24 ::Received request :: POST ::::{"name":"shop","slug":"s0001","description":"admin extend user","grants":[{"resource":"678db20fa68defc15b8b661f","action":["update:own","read:own"],"attributes":"*"},{"resource":"678dbe156c5a488fad2bd383","action":["read:own"],"attributes":"*, !mount"}]} 
+2025-01-20 10:12:23 ::error ::/v1/api/rbac/role ::5a9757fe-318e-41da-81cb-191755f72d24 ::409 - 10ms - Response :: {"status":409}  ::{"message":"Resource already existed"} 
+2025-01-20 10:13:24 ::info ::/v1/api/rbac/role ::e0b3e58c-0b9e-465e-8268-9fe3ed897d88 ::Received request :: POST ::::{"name":"shop","slug":"s0002","description":"admin extend user","grants":[{"resource":"678db20fa68defc15b8b661f","action":["update:own","read:own"],"attributes":"*"},{"resource":"678dbe156c5a488fad2bd383","action":["read:own"],"attributes":"*, !mount"}]} 
+2025-01-20 10:15:14 ::info ::/v1/api/rbac/role ::63f64341-331c-437a-9399-d9e5665ee765 ::Received request :: POST ::::{"name":"user","slug":"s0003","description":" user .......","grants":[{"resource":"678db20fa68defc15b8b661f","action":["update:own","read:own"],"attributes":"*"}]} 
+2025-01-20 10:35:15 ::info ::/v1/api/rbac/roles ::d3ef7bfb-c34f-45db-b215-ff1a208e60c0 ::Received request :: POST ::::{"name":"user","slug":"s0003","description":" user .......","grants":[{"resource":"678db20fa68defc15b8b661f","action":["update:own","read:own"],"attributes":"*"}]} 
+2025-01-20 10:35:15 ::error ::/v1/api/rbac/roles ::d3ef7bfb-c34f-45db-b215-ff1a208e60c0 ::401 - 12ms - Response :: {"status":401}  ::{"message":"Invalid Request"} 
+2025-01-20 10:35:50 ::info ::/v1/api/rbac/roles ::6ef742d3-bd14-42fe-9e9b-6e36dcde3f62 ::Received request :: GET ::::{} 
+2025-01-20 10:35:50 ::error ::/v1/api/rbac/roles ::6ef742d3-bd14-42fe-9e9b-6e36dcde3f62 ::undefined - 11ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'userId')"} 
+2025-01-20 10:36:51 ::info ::/v1/api/rbac/roles ::09f45ce6-bfaf-415d-8131-9c2a97d73a68 ::Received request :: GET ::::{} 
+2025-01-20 10:36:51 ::error ::/v1/api/rbac/roles ::09f45ce6-bfaf-415d-8131-9c2a97d73a68 ::undefined - 11ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'userId')"} 
+2025-01-20 10:37:16 ::info ::/v1/api/rbac/roles ::80b99c1c-54d6-4ea8-ac99-3b6b4453d5da ::Received request :: GET ::::{} 
+2025-01-20 10:37:50 ::info ::/v1/api/rbac/roles ::c764758c-1106-45f6-823f-ba728c0ebf69 ::Received request :: GET ::::{} 
+2025-01-20 10:40:09 ::info ::/v1/api/rbac/roles ::1a4d6669-8112-4e98-b8d7-fc400809d03c ::Received request :: GET ::::{} 
+2025-01-20 10:41:50 ::info ::/v1/api/rbac/roles ::fb3a622f-3d13-4c74-829f-2ccbc51744ab ::Received request :: GET ::::{} 
+2025-01-20 10:44:38 ::info ::/v1/api/rbac/roles ::f97439c6-a862-4ca3-a73e-b02ca4503aca ::Received request :: GET ::::{} 
+2025-01-20 10:45:16 ::info ::/v1/api/rbac/roles ::2f06c68b-bfde-456c-9033-69ad6ab8e3ac ::Received request :: GET ::::{} 
+2025-01-20 10:45:48 ::info ::/v1/api/rbac/roles ::bb34c6b0-2d13-4823-b83e-a7c85730db9e ::Received request :: GET ::::{} 
+2025-01-20 10:48:19 ::info ::/v1/api/rbac/roles ::60e6c515-834b-49f6-8551-6da549f7fc00 ::Received request :: GET ::::{} 
+2025-01-20 11:05:35 ::info ::/v1/api/profile/viewOwn ::99c2e841-7e7a-49e6-8c13-e52fc18abb7a ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 11:05:35 ::error ::/v1/api/profile/viewOwn ::99c2e841-7e7a-49e6-8c13-e52fc18abb7a ::undefined - 19ms - Response :: {}  ::{"message":"rbac.setGrant is not a function"} 
+2025-01-20 11:06:30 ::info ::/v1/api/profile/viewOwn ::b1ec042e-65d1-4f09-959a-b464f1f5d4cd ::Received request :: GET ::::{"role":"admin"} 
+2025-01-20 11:12:42 ::info ::/v1/api/profile/ ::1d8ccba8-d2e9-4d7d-8dfa-28653d5a8c24 ::Received request :: GET ::::{} 
+2025-01-20 11:12:42 ::error ::/v1/api/profile/ ::1d8ccba8-d2e9-4d7d-8dfa-28653d5a8c24 ::undefined - 17ms - Response :: {}  ::{"message":"role_name is not defined"} 

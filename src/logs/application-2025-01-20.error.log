@@ -1,0 +1,19 @@
+2025-01-20 02:00:04 ::error ::/v1/api/profile/viewAny ::326d9641-56df-485b-9ab8-c5d7c958d304 ::401 - 7ms - Response :: {"status":401}  ::{"message":"you dont have enough permissions"} 
+2025-01-20 02:10:14 ::error ::/v1/api/profile/viewAny ::8868e730-487d-438e-b780-5648c76f89bc ::undefined - 13ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-20 02:11:47 ::error ::/v1/api/profile/viewAny ::64af1bde-2a28-44a9-a770-0f2b50052df5 ::undefined - 12ms - Response :: {}  ::{"message":"rbac.can(...).execute is not a function"} 
+2025-01-20 02:13:20 ::error ::/v1/api/profile/viewAny ::13a5bb34-506c-45be-8120-70b3b9141532 ::undefined - 13ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-20 02:18:59 ::error ::/v1/api/profile/viewOwn ::c6bd644b-73a0-4eda-bb22-11dfeb952f67 ::undefined - 16ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-20 02:20:12 ::error ::/v1/api/profile/viewOwn ::4aae91ee-4092-4d33-a3c8-b0acf2720d14 ::undefined - 12ms - Response :: {}  ::{"message":"rbac.can(...).execute is not a function"} 
+2025-01-20 02:22:50 ::error ::/v1/api/profile/viewOwn ::3b95faa8-c68d-463e-bd7f-f6329c0b7515 ::undefined - 13ms - Response :: {}  ::{"message":"rbac.can(...).execute is not a function"} 
+2025-01-20 09:12:09 ::error ::/v1/api/rbac/resource ::c814369b-ac28-4ada-85ab-8eeca25ef827 ::409 - 34ms - Response :: {"status":409}  ::{"message":"Resource already existed"} 
+2025-01-20 09:24:52 ::error ::/v1/api/rbac/resource ::50ed6e0f-4c2d-487b-9b0c-7cf0285feb94 ::undefined - 12ms - Response :: {}  ::{"message":"Aggregate has empty pipeline"} 
+2025-01-20 09:25:14 ::error ::/v1/api/rbac/resource ::9ebde176-1a0e-4480-b51c-499baec3f1d5 ::undefined - 12ms - Response :: {}  ::{"message":"Aggregate has empty pipeline"} 
+2025-01-20 09:27:47 ::error ::/v1/api/rbac/resource ::f8c2b6bb-805c-4e74-b9a1-03938f0c00a4 ::undefined - 11ms - Response :: {}  ::{"message":"Aggregate has empty pipeline"} 
+2025-01-20 09:58:32 ::error ::/v1/api/rbac/role ::9faa0c56-7764-41dc-8803-f2ee0d71cf50 ::undefined - 11ms - Response :: {}  ::{"message":"body is not defined"} 
+2025-01-20 10:03:01 ::error ::/v1/api/rbac/role ::c79d23e8-0c5c-404a-bef7-1430b155fc24 ::409 - 21ms - Response :: {"status":409}  ::{"message":"Resource already existed"} 
+2025-01-20 10:12:23 ::error ::/v1/api/rbac/role ::5a9757fe-318e-41da-81cb-191755f72d24 ::409 - 10ms - Response :: {"status":409}  ::{"message":"Resource already existed"} 
+2025-01-20 10:35:15 ::error ::/v1/api/rbac/roles ::d3ef7bfb-c34f-45db-b215-ff1a208e60c0 ::401 - 12ms - Response :: {"status":401}  ::{"message":"Invalid Request"} 
+2025-01-20 10:35:50 ::error ::/v1/api/rbac/roles ::6ef742d3-bd14-42fe-9e9b-6e36dcde3f62 ::undefined - 11ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'userId')"} 
+2025-01-20 10:36:51 ::error ::/v1/api/rbac/roles ::09f45ce6-bfaf-415d-8131-9c2a97d73a68 ::undefined - 11ms - Response :: {}  ::{"message":"Cannot read properties of undefined (reading 'userId')"} 
+2025-01-20 11:05:35 ::error ::/v1/api/profile/viewOwn ::99c2e841-7e7a-49e6-8c13-e52fc18abb7a ::undefined - 19ms - Response :: {}  ::{"message":"rbac.setGrant is not a function"} 
+2025-01-20 11:12:42 ::error ::/v1/api/profile/ ::1d8ccba8-d2e9-4d7d-8dfa-28653d5a8c24 ::undefined - 17ms - Response :: {}  ::{"message":"role_name is not defined"} 
