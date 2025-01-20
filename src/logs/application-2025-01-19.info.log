@@ -1,0 +1,30 @@
+2025-01-19 04:28:49 ::info ::/v1/api/profile/viewAny ::ddeb1416-41c7-418b-87e7-2ff6b2312f62 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 04:32:36 ::info ::/v1/api/profile/viewAny ::deff408b-424c-4009-8d44-8b28212336af ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 04:33:14 ::info ::/v1/api/profile/viewAny ::fa43e5a0-f5c0-414e-aebf-bbd202c708aa ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:36:06 ::info ::/v1/api/profile/viewAny ::ce9d2a5b-2051-42d9-99c5-4f8110c60ac3 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:36:06 ::error ::/v1/api/profile/viewAny ::ce9d2a5b-2051-42d9-99c5-4f8110c60ac3 ::undefined - 13ms - Response :: {"name":"AccessControlError"}  ::{"message":"Invalid role(s): undefined"} 
+2025-01-19 05:36:20 ::info ::/v1/api/profile/viewAny ::c02b4740-b963-4375-8451-bb6a09f9aec9 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:36:20 ::error ::/v1/api/profile/viewAny ::c02b4740-b963-4375-8451-bb6a09f9aec9 ::undefined - 5ms - Response :: {"name":"AccessControlError"}  ::{"message":"Invalid role(s): undefined"} 
+2025-01-19 05:36:29 ::info ::/v1/api/profile/viewAny ::b8d8691f-8319-4b59-b9a1-9437d53075b4 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:36:29 ::error ::/v1/api/profile/viewAny ::b8d8691f-8319-4b59-b9a1-9437d53075b4 ::undefined - 12ms - Response :: {"name":"AccessControlError"}  ::{"message":"Invalid role(s): undefined"} 
+2025-01-19 05:37:47 ::info ::/v1/api/profile/viewAny ::f85bc3c0-cb1e-4dcb-b041-9ff2b2b4a779 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:37:47 ::error ::/v1/api/profile/viewAny ::f85bc3c0-cb1e-4dcb-b041-9ff2b2b4a779 ::undefined - 16ms - Response :: {"name":"AccessControlError"}  ::{"message":"Invalid role(s): undefined"} 
+2025-01-19 05:39:29 ::info ::/v1/api/profile/viewAny ::5360999c-a03d-4d47-b3d1-fe767d42f866 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:39:29 ::error ::/v1/api/profile/viewAny ::5360999c-a03d-4d47-b3d1-fe767d42f866 ::undefined - 17ms - Response :: {"name":"AccessControlError"}  ::{"message":"Invalid role(s): undefined"} 
+2025-01-19 05:41:22 ::info ::/v1/api/profile/viewAny ::8938c388-38b1-4a04-8553-d46922eacf18 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:41:22 ::error ::/v1/api/profile/viewAny ::8938c388-38b1-4a04-8553-d46922eacf18 ::401 - 10ms - Response :: {"status":401}  ::{"message":"you dont have enough permissions"} 
+2025-01-19 05:41:28 ::info ::/v1/api/profile/viewAny ::8955b0ed-511c-4646-9a1c-ce844928c342 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:41:37 ::info ::/v1/api/profile/viewOwn ::61aad37b-9ce5-4898-bf59-27025d8aecfc ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:41:37 ::error ::/v1/api/profile/viewOwn ::61aad37b-9ce5-4898-bf59-27025d8aecfc ::401 - 6ms - Response :: {"status":401}  ::{"message":"Invalid Request"} 
+2025-01-19 05:42:27 ::info ::/v1/api/profile/viewOwn ::e1dad772-1647-4e38-aba3-cc92a5bc6a67 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:42:44 ::info ::/v1/api/profile/viewOwn ::0bb571de-940d-4cb6-9254-3eb8e4ffcf3b ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:42:44 ::error ::/v1/api/profile/viewOwn ::0bb571de-940d-4cb6-9254-3eb8e4ffcf3b ::401 - 6ms - Response :: {"status":401}  ::{"message":"you dont have enough permissions"} 
+2025-01-19 05:44:29 ::info ::/v1/api/profile/viewOwn ::736c816f-99e7-4e25-9115-968f2eb21de8 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:44:39 ::info ::/v1/api/profile/viewAny ::f91d3652-cd1e-4805-9b8e-ed382c9d4322 ::Received request :: GET ::::{"role":"shop"} 
+2025-01-19 05:44:39 ::error ::/v1/api/profile/viewAny ::f91d3652-cd1e-4805-9b8e-ed382c9d4322 ::401 - 6ms - Response :: {"status":401}  ::{"message":"you dont have enough permissions"} 
+2025-01-19 05:44:48 ::info ::/v1/api/profile/viewAny ::4fac34f1-08bf-4ae8-8d8d-519407e908d6 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:50:30 ::info ::/v1/api/profile/viewown ::33e1a823-ebe3-489f-999e-4854523da3b9 ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:50:30 ::error ::/v1/api/profile/viewown ::33e1a823-ebe3-489f-999e-4854523da3b9 ::undefined - 11ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-19 05:50:46 ::info ::/v1/api/profile/viewown ::8e5d6b3c-1e9e-4078-a7a8-14204073999c ::Received request :: GET ::::{"role":"admin"} 
+2025-01-19 05:50:46 ::error ::/v1/api/profile/viewown ::8e5d6b3c-1e9e-4078-a7a8-14204073999c ::undefined - 5ms - Response :: {}  ::{"message":"rbac.can(...)[action] is not a function"} 
+2025-01-19 05:50:52 ::info ::/v1/api/profile/viewown ::f520db5f-983d-4b86-a1cb-c6134bdbe100 ::Received request :: GET ::::{"role":"admin"} 
