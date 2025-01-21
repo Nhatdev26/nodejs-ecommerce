@@ -1,0 +1,45 @@
+2025-01-22 00:56:09 ::info ::/v1/api/user/new-user ::5094ed12-6605-4acf-9923-44906cfa6ad9 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 00:56:48 ::info ::/v1/api/user/new-user ::413a4d80-09e4-45a1-8883-3ea3c5bf9e83 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 00:57:55 ::info ::/v1/api/user/new-user ::50fe3142-31f1-4dab-ae8a-5e5adddb78d4 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 00:57:55 ::error ::/v1/api/user/new-user ::50fe3142-31f1-4dab-ae8a-5e5adddb78d4 ::undefined - 10ms - Response :: {}  ::{"message":"Cannot access 'newOtp' before initialization"} 
+2025-01-22 00:59:15 ::info ::/v1/api/user/new-user ::11eb5bec-233b-4643-8acb-29239f18f1f0 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 00:59:15 ::error ::/v1/api/user/new-user ::11eb5bec-233b-4643-8acb-29239f18f1f0 ::undefined - 11ms - Response :: {}  ::{"message":"Cannot access 'newOtp' before initialization"} 
+2025-01-22 00:59:54 ::info ::/v1/api/user/new-user ::4abacdec-46ed-4b22-96de-cb23cec7b350 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 00:59:54 ::error ::/v1/api/user/new-user ::4abacdec-46ed-4b22-96de-cb23cec7b350 ::undefined - 11ms - Response :: {}  ::{"message":"crypto.randomInt is not a function"} 
+2025-01-22 01:00:26 ::info ::/v1/api/user/new-user ::acd1110b-3685-4405-8883-d9d163029405 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:01:48 ::info ::/v1/api/user/new-user ::977fb820-f0c9-4175-8414-2534e8552673 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:02:53 ::info ::/v1/api/user/new-user ::113bee90-d68e-4f91-82ec-a4e1250aa239 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:03:17 ::info ::/v1/api/user/new-user ::030856d2-4841-4243-9654-6f0eb44299a5 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:03:17 ::error ::/v1/api/user/new-user ::030856d2-4841-4243-9654-6f0eb44299a5 ::409 - 14ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
+2025-01-22 01:04:16 ::info ::/v1/api/user/new-user ::95eb7227-7a18-4f26-8239-145fce3e3546 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:04:16 ::error ::/v1/api/user/new-user ::95eb7227-7a18-4f26-8239-145fce3e3546 ::409 - 10ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
+2025-01-22 01:05:02 ::info ::/v1/api/user/new-user ::9c554f30-60a1-43ce-bdaf-b7376de99a64 ::Received request :: POST ::::{"email":"nhatchelsea264@gmail.com"} 
+2025-01-22 01:05:02 ::error ::/v1/api/user/new-user ::9c554f30-60a1-43ce-bdaf-b7376de99a64 ::409 - 10ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
+2025-01-22 01:05:27 ::info ::/v1/api/user/new-user ::b54dfb50-7d84-4a7a-bac8-6b3ef8220fc0 ::Received request :: POST ::::{"email":"nhatchelsea264@gmail.com"} 
+2025-01-22 01:05:27 ::error ::/v1/api/user/new-user ::b54dfb50-7d84-4a7a-bac8-6b3ef8220fc0 ::409 - 27ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
+2025-01-22 01:06:55 ::info ::/v1/api/user/new-user ::c5a00a7f-731d-4f48-9957-e95bffa01bdb ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:08:23 ::info ::/v1/api/user/new-user ::3c2cf686-47d5-4f30-a8b1-0a016dee88ef ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:09:03 ::info ::/v1/api/user/new-user ::5087e880-c8bc-424b-a2c0-a8a2d0c8ab04 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:10:54 ::info ::/v1/api/user/new-user ::5783366d-c031-41c9-9d39-e76246119342 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:11:59 ::info ::/v1/api/user/new-user ::a9be862f-1f17-474f-a916-010108add19e ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:12:33 ::info ::/v1/api/user/new-user ::25eb18c9-9f17-4e06-aa87-63d60c711beb ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:13:24 ::info ::/v1/api/user/new-user ::429ce667-2829-4894-ab3e-bf02711ea178 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:17:39 ::info ::/v1/api/user/new-user ::3fd56a08-d432-4990-a880-db2ab2169fbb ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:18:47 ::info ::/v1/api/user/new-user ::5d23825f-c38f-43bf-b661-ebd6c08ef2d3 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:19:52 ::info ::/v1/api/user/new-user ::682779be-6b2d-4a54-816b-78aa66646526 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:20:50 ::info ::/cgb/welcome-back ::14562136-0775-47b2-a083-46cc8b19262c ::Received request :: GET ::::{"token":"***REDACTED***"} 
+2025-01-22 01:21:53 ::info ::/v1/api/user/new-user ::489c6877-b020-4892-ab49-195d2f8725f8 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:23:21 ::info ::/v1/api/user/new-user ::7c078a39-9dfb-4be6-a2ae-f694508ccf0e ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:24:12 ::info ::/v1/api/user/new-user ::9f439945-13d3-469c-ae44-d0104394e531 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:28:43 ::info ::/v1/api/user/new-user ::1df60add-5f02-499d-b547-7cada2a289f2 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:29:11 ::info ::/v1/api/user/new-user ::f108fe0b-7e31-429e-9479-d20628c40afe ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:30:06 ::info ::/v1/api/user/new-user ::a672a393-f9b0-4c82-bdab-e4dc8b318528 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:31:33 ::info ::/v1/api/user/new-user ::04da2faf-b9ff-461d-96f0-f349819af9e7 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:32:09 ::info ::/v1/api/user/new-user ::24dcefa8-caf5-45ea-920a-9c6a4a16a586 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:34:37 ::info ::/v1/api/user/new-user ::000575e7-214c-48b2-9eed-3ca0aa404b65 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:34:54 ::info ::/cgb/welcome-back ::b220a162-559a-48e4-bbe5-3cb983e3f25c ::Received request :: GET ::::{"token":"***REDACTED***"} 
+2025-01-22 01:35:44 ::info ::/cgb/welcome-back ::37427ae2-eafe-4f64-aaa7-5c30e09deb8b ::Received request :: GET ::::{"token":"***REDACTED***"} 
+2025-01-22 01:38:37 ::info ::/v1/api/user/new-user ::6d1bf6ff-99d2-406d-86fe-2518f5b4ab0a ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:39:39 ::info ::/v1/api/user/new-user ::027b5640-3fb8-4a19-bae4-0e36acffbdd2 ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 
+2025-01-22 01:40:23 ::info ::/cgb/welcome-back ::d506f435-3b11-4073-a2b7-5d8591450a5b ::Received request :: GET ::::{"token":"***REDACTED***"} 
+2025-01-22 01:44:03 ::info ::/v1/api/user/new-user ::daf47df3-b6df-43b0-bc96-52fc1340322a ::Received request :: POST ::::{"email":"nhatchelsea2604@gmail.com"} 

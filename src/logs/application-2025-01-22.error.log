@@ -1,0 +1,7 @@
+2025-01-22 00:57:55 ::error ::/v1/api/user/new-user ::50fe3142-31f1-4dab-ae8a-5e5adddb78d4 ::undefined - 10ms - Response :: {}  ::{"message":"Cannot access 'newOtp' before initialization"} 
+2025-01-22 00:59:15 ::error ::/v1/api/user/new-user ::11eb5bec-233b-4643-8acb-29239f18f1f0 ::undefined - 11ms - Response :: {}  ::{"message":"Cannot access 'newOtp' before initialization"} 
+2025-01-22 00:59:54 ::error ::/v1/api/user/new-user ::4abacdec-46ed-4b22-96de-cb23cec7b350 ::undefined - 11ms - Response :: {}  ::{"message":"crypto.randomInt is not a function"} 
+2025-01-22 01:03:17 ::error ::/v1/api/user/new-user ::030856d2-4841-4243-9654-6f0eb44299a5 ::409 - 14ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
+2025-01-22 01:04:16 ::error ::/v1/api/user/new-user ::95eb7227-7a18-4f26-8239-145fce3e3546 ::409 - 10ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
+2025-01-22 01:05:02 ::error ::/v1/api/user/new-user ::9c554f30-60a1-43ce-bdaf-b7376de99a64 ::409 - 10ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
+2025-01-22 01:05:27 ::error ::/v1/api/user/new-user ::b54dfb50-7d84-4a7a-bac8-6b3ef8220fc0 ::409 - 27ms - Response :: {"status":409}  ::{"message":"Email already exist"} 
