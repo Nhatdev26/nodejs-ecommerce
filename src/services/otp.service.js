@@ -1,5 +1,6 @@
 "use strict";
 
+const { NotFoundError } = require("../core/error.response");
 const otpModel = require("../models/otp.model");
 const { generateRandomInteger } = require("../utils");
 
@@ -8,7 +9,7 @@ const findOtpByEmail = async ({ email }) => {
 };
 const newOtp = async ({ email }) => {
   const token = generateRandomInteger();
-  console.log("token", token);
+
   const newOtp = await otpModel.create({
     otp_token: token,
     otp_email: email,
@@ -16,5 +17,16 @@ const newOtp = async ({ email }) => {
 
   return newOtp;
 };
+const checkOtpToken = async ({ otp_token }) => {
+  const otpToken = await otpModel.findOne({ otp_token }).lean();
 
-module.exports = { newOtp, findOtpByEmail };
+  if (!otpToken) {
+    throw new NotFoundError("Otp token not found");
+  }
+
+  // delete token after check
+  await otpModel.deleteOne({ otp_token });
+  return otpToken;
+};
+
+module.exports = { newOtp, findOtpByEmail, checkOtpToken };

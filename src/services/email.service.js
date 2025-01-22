@@ -58,7 +58,7 @@ const sendEmailOTPToken = async ({ email }) => {
     const content = replacePlaceholders({
       template: template.tem_html,
       params: {
-        link_verify: `http://localhost:3054/cgb/welcome-back?token=${otpToken.otp_token}`,
+        link_verify: `http://localhost:3054/v1/api/user/verify-otp?token=${otpToken.otp_token}`,
       },
     });
 
