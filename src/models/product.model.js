@@ -6,7 +6,7 @@ var slugify = require("slugify");
 
 const DOCUMENT_NAME = "Product";
 const COLLECTION_NAME = "Products";
-const COLLECTION_CLOTHING_NAME = "Clothing";
+const COLLECTION_CLOTHING_NAME = "Clothings";
 const COLLECTION_ELECTRONIC_NAME = "Electronics";
 const COLLECTION_FURNITURE_NAME = "Furniture";
 
@@ -20,9 +20,9 @@ const productSchema = new Schema(
     product_type: {
       type: String,
       required: true,
-      enum: ["Electronics", "Clothing", "Furniture"],
+      enum: ["Electronics", "Clothings", "Furniture"],
     },
-    product_shop: { type: Schema.Types.ObjectId, ref: "Shop", required: true },
+    product_shop: { type: Schema.Types.ObjectId, ref: "Shop" },
     product_ratingsAverage: {
       type: Number,
       default: 4.5,
@@ -52,7 +52,7 @@ const clothingSchema = new Schema(
     size: { type: String, required: true },
     color: { type: String, required: true },
     material: { type: String },
-    product_shop: { type: Schema.Types.ObjectId, ref: "Shop", required: true },
+    product_shop: { type: Schema.Types.ObjectId, ref: "Shop" },
   },
   {
     timestamps: true,
@@ -65,7 +65,7 @@ const electronicSchema = new Schema(
     manufacturer: { type: String, required: true },
     model: { type: String },
     color: { type: String },
-    product_shop: { type: Schema.Types.ObjectId, ref: "Shop", required: true },
+    product_shop: { type: Schema.Types.ObjectId, ref: "Shop" },
   },
   {
     timestamps: true,
@@ -78,7 +78,7 @@ const furnitureSchema = new Schema(
     manufacturer: { type: String, required: true },
     model: { type: String },
     color: { type: String },
-    product_shop: { type: Schema.Types.ObjectId, ref: "Shop", required: true },
+    product_shop: { type: Schema.Types.ObjectId, ref: "Shop" },
   },
   {
     timestamps: true,
@@ -88,7 +88,7 @@ const furnitureSchema = new Schema(
 
 module.exports = {
   product: model(DOCUMENT_NAME, productSchema),
-  clothing: model("Clothing", clothingSchema),
+  clothing: model("Clothings", clothingSchema),
   electronic: model("Electronics", electronicSchema),
   furniture: model("Furniture", furnitureSchema),
 };

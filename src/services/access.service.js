@@ -70,6 +70,7 @@ class AccessService {
   };
   login = async ({ email, password, refreshToken = null }) => {
     // 1.check email in dbs
+
     const foundShop = await ShopService.findShopByEmail({ email });
 
     if (!foundShop) throw new BadRequestError("Shop not registered !!!");
@@ -112,6 +113,7 @@ class AccessService {
       tokens,
     };
   };
+
   signUp = async ({ name, email, password }) => {
     // 1. Check email in dbs
     const holderShop = await ShopService.findShopByEmail({ email });
