@@ -25,9 +25,14 @@ const replacePlaceholders = ({ template, params }) => {
   return template;
 };
 
+const convert2ObjectId = (id) => {
+  return new Types.ObjectId(id);
+};
+
 module.exports = {
   generateRandomString,
   getInfoData,
   generateRandomInteger,
   replacePlaceholders,
+  convert2ObjectId,
 };
