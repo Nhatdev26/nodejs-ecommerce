@@ -18,6 +18,7 @@ class AccessController {
   logout = async (req, res, next) => {
     OK(res, "Logout Success !!!", await accessService.logout(req.keyStore));
   };
+
   login = async (req, res, next) => {
     OK(res, "Login Success !!!", await accessService.login(req.body));
   };

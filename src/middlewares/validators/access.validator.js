@@ -32,6 +32,8 @@ const validateLoginRequest = (req, res, next) => {
   if (loginRequest.password.length < 8) {
     throw new ForbiddenError("Password must be at least 8 characters long.");
   }
+
+  return next();
 };
 
 const validateRegister = (req, res, next) => {
